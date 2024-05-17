@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: bbsProject
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 8888
+    url: jdbc:mysql://localhost:3306/bbs?serverTimezone=GMT-8
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/static
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8
+logging:
+  level:
+    com.example.bbsproject: debug
